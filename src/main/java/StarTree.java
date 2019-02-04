@@ -31,7 +31,24 @@ public class StarTree {
             case "centralTree":
                 centralTree();
                 break;
+            case "O":
+                frameO();
+                break;
         }
+    }
+
+    private void frameO() {
+        int x = 0, y = 0;
+        for (int i = 0; i < tabtree.length; i++) {
+            x = i;
+            for (int j = 0; j < tabtree.length; j++) {
+
+                if ((j ==0)||(i ==  tabtree.length-1)||(i ==0)||(j ==  tabtree.length-1)) {
+                    tabtree[i][j] = true;
+                } else tabtree[i][j] = false;
+            }
+        }
+
     }
 
     private void centralTree() {

@@ -8,6 +8,7 @@ public class Main {
         StarTree starTree6 =new StarTree("diagonalleft");
         StarTree starTree7 =new StarTree("cros");
         StarTree starTree8 =new StarTree("centralTree");
+        StarTree starTree9 =new StarTree("O");
         starTree.draw();
         starTree2.draw();
         starTree3.draw();
@@ -16,5 +17,6 @@ public class Main {
         starTree6.draw();
         starTree7.draw();
         starTree8.draw();
+        starTree9.draw();
     }
 }
