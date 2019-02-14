@@ -10,7 +10,7 @@ public class Palindrom {
         System.out.println("Proszę podaj palindrom  ");
         palindrom= ino.nextLine();
         System.out.println( new StringBuilder(palindrom).reverse().toString());
-        System.out.println(printOutpalindrom(palindrom));
+        System.out.println("wyrażenie " +palindrom +" jest palindromem -> "+printOutpalindrom(palindrom));
 
     }
 
