@@ -15,7 +15,7 @@ public class Palindrom {
     }
 
     private static boolean printOutpalindrom(String str) {
-        System.out.println( new StringBuilder(palindrom).reverse().toString().replaceAll("\\s+","")+" == ? " + str.replaceAll("\\s+",""));
+        System.out.println( new StringBuilder(palindrom).reverse().toString().replaceAll("\\s+","")+" =?=  " + str.replaceAll("\\s+",""));
         return 0 == str.replaceAll("\\s+","").compareToIgnoreCase(new StringBuilder(palindrom).reverse().toString().replaceAll("\\s+","")) ?true:false ;
     }
 
